@@ -1,0 +1,22 @@
+.Dapp {
+  text-align: center;
+}
+
+.Dapp-logo {
+  height: 40vmin;
+}
+
+.Dapp-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Dapp-link {
+  color: #09d3ac;
+}

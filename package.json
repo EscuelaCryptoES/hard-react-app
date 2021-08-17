@@ -1,7 +1,7 @@
 {
-  "name": "hardhat-hackathon-boilerplate",
+  "name": "hard-react-app",
   "version": "1.0.0",
-  "description": "A boilerplate repository to get you started with Hardhat and Ethereum development",
+  "description": "A simple repository to get you started with Hardhat and Ethereum development",
   "directories": {
     "test": "test"
   },
@@ -10,19 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nomiclabs/hardhat-hackathon-boilerplate.git"
+    "url": "git+https://github.com/EscuelaCryptoEs/hard-react-app.git"
   },
   "keywords": [
     "hardhat",
-    "ethereum",
-    "hackathon"
+    "ethereum"
   ],
-  "author": "Nomic Labs",
+  "author": "EscuelaCryptoES",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nomiclabs/hardhat-hackathon-boilerplate/issues"
-  },
-  "homepage": "https://github.com/nomiclabs/hardhat-hackathon-boilerplate#readme",
+  "homepage": "https://github.com/EscuelaCryptoES/hard-react-app/blob/master/README.md",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
     "@nomiclabs/hardhat-waffle": "^2.0.0",

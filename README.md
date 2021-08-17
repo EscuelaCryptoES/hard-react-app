@@ -51,6 +51,6 @@ Your environment will have everything you need to build a Dapp powered by Hardha
 - [ethers.js](https://docs.ethers.io/ethers.js/html/): A JavaScript library for interacting with Ethereum.
 - [Waffle](https://github.com/EthWorks/Waffle/): To have Ethereum-specific Chai assertions/mathers.
 - [A sample frontend/Dapp](./frontend): A Dapp which uses [Create React App](https://github.com/facebook/create-react-app).
-- [Web3] : At the beggining, you can use web3.js library.
+- [Web3](https://web3js.readthedocs.io/en/v1.4.0/getting-started.html) : At the beggining, you can use web3.js library.
 
 **Happy _buidling_!**

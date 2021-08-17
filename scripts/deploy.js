@@ -19,17 +19,17 @@ async function main() {
 
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
-  const Token = await ethers.getContractFactory("Token");
-  const token = await Token.deploy();
-  await token.deployed();
+  const SimpleStorage = await ethers.getContractFactory("SimpleStorage");
+  const simplestorage = await SimpleStorage.deploy();
+  await simplestorage.deployed();
 
-  console.log("Token address:", token.address);
+  console.log("SimpleStorage address:", simplestorage.address);
 
   // We also save the contract's artifacts and address in the frontend directory
-  saveFrontendFiles(token);
+  saveFrontendFiles(simplestorage);
 }
 
-function saveFrontendFiles(token) {
+function saveFrontendFiles(simplestorage) {
   const fs = require("fs");
   const contractsDir = __dirname + "/../frontend/src/contracts";
 
@@ -39,14 +39,14 @@ function saveFrontendFiles(token) {
 
   fs.writeFileSync(
     contractsDir + "/contract-address.json",
-    JSON.stringify({ Token: token.address }, undefined, 2)
+    JSON.stringify({ SimpleStorage: simplestorage.address }, undefined, 2)
   );
 
-  const TokenArtifact = artifacts.readArtifactSync("Token");
+  const SimpleStorageArtifact = artifacts.readArtifactSync("SimpleStorage");
 
   fs.writeFileSync(
-    contractsDir + "/Token.json",
-    JSON.stringify(TokenArtifact, null, 2)
+    contractsDir + "/SimpleStorage.json",
+    JSON.stringify(SimpleStorageArtifact, null, 2)
   );
 }
 
