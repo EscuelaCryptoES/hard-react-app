@@ -1,4 +1,4 @@
-# Hardhat React App from EscuelaCryptoES
+# Hardhat React App from EscuelaCryptoES with ethers.js
 
 This repository contains a forked Hardhat project that is a sample project that 
 you can use as the starting point for your Ethereum project. 
