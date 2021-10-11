@@ -30,7 +30,9 @@ npx hardhat run scripts/deploy.js --network localhost
 ```
 
 Before start, choose:
+
 If you want to test Token contract: rename index-token.js to index.js
+
 If you want to test SimpleStorage contract: rename index-ss.js to index.js
 
 Finally, we can run the frontend with:
