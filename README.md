@@ -11,6 +11,7 @@ dependencies:
 
 ```sh
 git clone https://github.com/EscuelaCryptoES/hard-react-app.git
+git checkout -b ethers
 cd hard-react-app
 npm install
 ```
@@ -28,12 +29,15 @@ deploy your contract:
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
+Before start, choose:
+If you want to test Token contract: rename index-token.js to index.js
+If you want to test SimpleStorage contract: rename index-ss.js to index.js
+
 Finally, we can run the frontend with:
 
 ```sh
 cd frontend
 npm install
-npm install web3
 npm start
 ```
 
@@ -51,6 +55,5 @@ Your environment will have everything you need to build a Dapp powered by Hardha
 - [ethers.js](https://docs.ethers.io/ethers.js/html/): A JavaScript library for interacting with Ethereum.
 - [Waffle](https://github.com/EthWorks/Waffle/): To have Ethereum-specific Chai assertions/mathers.
 - [A sample frontend/Dapp](./frontend): A Dapp which uses [Create React App](https://github.com/facebook/create-react-app).
-- [Web3](https://web3js.readthedocs.io/en/v1.4.0/getting-started.html) : At the beggining, you can use web3.js library.
 
 **Happy _buidling_!**
