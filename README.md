@@ -11,8 +11,8 @@ dependencies:
 
 ```sh
 git clone https://github.com/EscuelaCryptoES/hard-react-app.git
-git checkout -b ethers
 cd hard-react-app
+git checkout -b ethers
 npm install
 ```
 
